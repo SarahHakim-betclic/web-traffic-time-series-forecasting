@@ -1,0 +1,30 @@
+site_name: web-traffic-time-series-forecasting
+site_description: DS side projects. Forecast future traffic to Wikipedia pages.
+site_author: DS Team Betclic
+
+theme:
+  name: material
+  logo: betclic_logo.png
+  favicon: betclic_logo.png
+
+nav:
+  - Home: index.md
+  - Code Reference: reference/SUMMARY.md
+
+plugins:
+- search
+- mkdocstrings:
+    default_handler: python
+    watch:
+    - src
+- gen-files:
+    scripts:
+    - docs/gen_ref_pages.py
+- literate-nav:
+    nav_file: SUMMARY.md
+- section-index
+- mkdocs-jupyter
+- mermaid2
+
+repo_url: https://github.com/SarahHakim-betclic/web-traffic-time-series-forecasting
+
