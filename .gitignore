@@ -88,8 +88,8 @@ target/
 # Mypy cache
 .mypy_cache/
 .venv/
-!data/processed/.gitkeep
-!data/raw/.gitkeep
 data/processed/*
 data/raw/*
+!data/processed/.gitkeep
+!data/raw/.gitkeep
 outputs/models/*
