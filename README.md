@@ -4,7 +4,6 @@ Web Traffic Time Series Forecasting
 DS side projects. Forecast future traffic to Wikipedia pages.
 
 ### Download Data
-
 ```
 export KAGGLE_USERNAME=sarahhakim
 export KAGGLE_KEY=xxx
@@ -12,6 +11,10 @@ export KAGGLE_KEY=xxx
 kaggle competitions download -c web-traffic-time-series-forecasting
 ```
 
+### Create ipykernel
+```
+python -m ipykernel install --name web-traffic-time-series-forecasting --user
+```
 
 Project Organization
 ------------
