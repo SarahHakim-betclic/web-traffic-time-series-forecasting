@@ -3,6 +3,16 @@ Web Traffic Time Series Forecasting
 
 DS side projects. Forecast future traffic to Wikipedia pages.
 
+### Download Data
+
+```
+export KAGGLE_USERNAME=sarahhakim
+export KAGGLE_KEY=xxx
+
+kaggle competitions download -c web-traffic-time-series-forecasting
+```
+
+
 Project Organization
 ------------
 
