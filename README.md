@@ -2,6 +2,7 @@ Web Traffic Time Series Forecasting
 ==============================
 
 DS side projects. Forecast future traffic to Wikipedia pages.
+Link to the kaggle competition : https://www.kaggle.com/competitions/web-traffic-time-series-forecasting
 
 ### Download Data
 ```

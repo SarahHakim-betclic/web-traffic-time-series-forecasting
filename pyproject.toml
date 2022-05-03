@@ -9,6 +9,7 @@ repository = "https://github.com/SarahHakim-betclic/Web Traffic Time Series Fore
 python = ">=3.9,<3.11"
 python-dotenv = "^0.20.0"
 kaggle = "^1.5.12"
+plotly = "^5.7.0"
 
 [tool.poetry.dev-dependencies]
 
